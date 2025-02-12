@@ -1,0 +1,19 @@
+Pseudocodigo de la Busqueda Secuencial:
+1. Recorrer el arreglo desde el inicio hasta el final.
+2. Comparar cada elemento con el valor buscado.
+3. Si se encuentra, retornar la posicion.
+4. Si no se encuentra, retornar -1.
+
+Pseudocodigo de la Busqueda Binaria:
+1. Ordenar el arreglo.
+2. Tomar el elemento central.
+3. Si es el buscado, retornar la posicion.
+4. Si es mayor, buscar en la mitad izquierda.
+5. Si es menor, buscar en la mitad derecha.
+6. Repetir hasta encontrar el valor o terminar el arreglo.
+
+Conclusion:
+La busqueda binaria es mucho mas rapida para listas grandes, pero solo funciona si el arreglo esta ordenado.
+Si el arreglo esta desordenado, la busqueda secuencial es la unica opcion viable.
+La busqueda secuencial tiene una complejidad de O(n), mientras que la búsqueda binaria tiene O(log n),
+por lo que la binaria es más eficiente en listas grandes.
